@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Website</title>
+    <link rel="stylesheet" href="rd.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Real Estate Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Buy</a></li>
+                <li><a href="#">Sell</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="property">
+            <div class="property-images">
+                <img src="property1-1.jpg" alt="Property 1">
+                <img src="property1-2.jpg" alt="Property 1">
+                <img src="property1-3.jpg" alt="Property 1">
+            </div>
+            <h2>Beautiful Home</h2>
+            <p>A Home with a View</p>
+            <p>Price: $500,000</p>
+            <p>Bedrooms: 3</p>
+            <p>Bathrooms: 2</p>
+            <p>Area: 2500 sq. ft.</p>
+            <p>Garage: Yes</p>
+            <button onclick="window.location.href='property-details.html'">Learn More</button>
+        </div>
+
+        <div class="property">
+            <div class="property-images">
+                <img src="property2-1.jpg" alt="Property 2">
+                <img src="property2-2.jpg" alt="Property 2">
+                <img src="property2-3.jpg" alt="Property 2">
+            </div>
+            <h2>Luxury Apartment</h2>
+            <p>A Spacious Family Home</p>
+            <p>Price: $700,000</p>
+            <p>Bedrooms: 2</p>
+            <p>Bathrooms: 2.5</p>
+            <p>Area: 1800 sq. ft.</p>
+            <p>Garage: No</p>
+            <button onclick="window.location.href='property-details.html'">Learn More</button>
+        </div>
+
+        <div class="property">
+            <div class="property-images">
+                <img src="property3-1.jpg" alt="Property 3">
+                <img src="property3-2.jpg" alt="Property 3">
+                <img src="property3-3.jpg" alt="Property 3">
+            </div>
+            <h2>Cozy Cottage</h2>
+            <p>Cozy Cottage in the Woods</p>
+            <p>Price: $300,000</p>
+            <p>Bedrooms: 2</p>
+            <p>Bathrooms: 1</p>
+            <p>Area: 1200 sq. ft.</p>
+            <p>Garage: No</p>
+            <button onclick="window.location.href='property-details.html'">Learn More</button>
+        </div>
+
+        <div class="property">
+            <div class="property-images">
+                <img src="property4-1.jpg" alt="Property 4">
+                <img src="property4-2.jpg" alt="Property 4">
+                <img src="property4-3.jpg" alt="Property 4">
+            </div>
+            <h2>Modern Condo</h2>
+            <p>A Modern Masterpiece</p>
+            <p>Price: $600,000</p>
+            <p>Bedrooms: 2</p>
+            <p>Bathrooms: 2</p>
+            <p>Area: 1600 sq. ft.</p>
+            <p>Garage: Yes</p>
+            <button onclick="window.location.href='property-details.html'">Learn More</button>
+        </div>
+    </main>
+
+    <section class="inquiry-form">
+        <h2>Contact Us</h2>
+        <form action="submit_inquiry.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2024 Real Estate Website
+    </footer>
+
+</body>
+
+</html>
