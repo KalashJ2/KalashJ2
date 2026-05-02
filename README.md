@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @Kalash Jaiswal
-- 👀 I’m interested in web devlopment,gaming,game development
-- 🌱 I’m currently learning web development
+- 👀 
 
 
 <!---
